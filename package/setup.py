@@ -29,7 +29,7 @@ setup(
         "moviepy",
         "networkx",
         "MDAnalysis",
-        "emlp==1.0.2",
+        "emlp>=1.0.2",
         "tensorflow-probability",
         "dm-haiku",
         "selfies",
@@ -38,7 +38,7 @@ setup(
         "rdkit>=2022",
         "sympy",
         "e3nn",
-        "torch==1.12",  # note - if you want to change this, change the github action too
+        "torch>=1.12",  # note - if you want to change this, change the github action too
         "simpletransformers==0.63.9",
         "linkify-it-py",
     ],
